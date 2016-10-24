@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+
+#button{
+	-fx-text-fill: white;
+	-fx-background-color: #000066;
+    -fx-padding: 3 10 3 10;
+    -fx-background-radius: 10, 10, 10, 10;
+	-fx-border-color: white;
+	-fx-border-radius: 9, 9, 9, 9;
+	-fx-border-width: 0px 0px 0px 8px;
+	-fx-font-weight: bold;
+    -fx-font-family:Courier New;
+    -fx-font-size: 20px;
+}
+
+#button:hover{
+		-fx-background-color: Darkgrey;
+		-fx-text-fill: #000066;
+		-fx-border-color: #000066;	
+}
+
+#text{
+		-fx-font-size: 20px;
+		-fx-font-weight: bold;
+    	-fx-font-family:Courier New;	
+}
+
+
+
